@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Space tourism website</title>
+  <style type="text/css" media="all">
+    body{
+      background-image: url('assets/crew/background-crew-desktop.jpg');
+      min-height: 100%;
+      max-height: 100%;
+  color:white; }
+  h1, p {
+      letter-spacing: 3px;
+    }
+  .w3-bar {background: #222;}
+  </style>
+</head>
+<body style=background-image: url("assets/home/background-home-desktop.jpg");>
+<div class="w3-container w3-padding-top-32">
+  
+<div class="w3-row">
+  <div class=" w3-padding-large w3-half"><img src="assets/shared/logo.svg" alt="" />
+  <a  class="w3-bar-item w3-hide-large w3-hide-medium w3-white w3-large w3-right" href="javascript:void(0)" onclick="myFun()" title="Toggle Navigation"><i class="fa fa-bars"></i></a>
+  </div>
+ <div class="w3-bar w3-mobile w3-hide-small w3-card-4  w3-padding-large w3-half">
+     <a href="index.html" class="w3-bar-item w3-hide-small w3-right w3-button">
+Home </a>
+<div class="w3-dropdown-hover w3-hide-small">
+ <button class="w3-button w3-border-bottom" title="ToggleNavigation">02 Crew<I class=" fa fa-caret-down"></I></button> <div class="w3-dropdown-hover w3-hide-small">
+
+ <div class="w3-dropdown-content w3-sand w3-bar-block w3-card-4">
+
+ <a href="crew-commander.html" class="w3-button w3-hide-small w3-bar-item"><img src="icon-todo.svg" alt=""/> Crew Commander</a> <a href="crew-engineer.html" class="w3-button w3-hide-small w3-bar-item"><img src="icon-calender.svg" alt=""/>Crew engineer</a>
+ <a href="crew-pilot.html" class="w3-button w3-hide-small w3-bar-item "><img src="icon-reminders.svg" alt="" />Crew pilot</a>
+ <a href="crew-specialist.html" class="w3-hide-small w3-button w3-bar-item"><img src="icon-planning.svg" alt=""/>Crew specialist</a>
+ </div>
+</div>
+<div class="w3-dropdown-hover w3-hide-small">
+<button class="w3-button" title="ToggleNavigation">01 Destination<I class=" fa fa-caret-down"></I></button>
+<div class="w3-dropdown-content w3-sand w3-bar-block w3-card-4">
+
+<a href="destination-moon.html" class="w3-button w3-hide-small w3-bar-item"><img src="icon-todo.svg" alt=""/>Moon</a>
+<a href="destination-titan.html" class="w3-button w3-hide-small w3-bar-item"><img src="icon-calender.svg" alt=""/>Titan</a>
+<a href="destination-europa.html" class="w3-button w3-hide-small w3-bar-item "><img src="icon-reminders.svg" alt="" />Europa</a> <a href="destination-mars.html" class="w3-hide-small w3-button w3-bar-item"><img src="icon-planning.svg" alt=""/>Mars</a>
+ </div>
+ </div>
+ <div class="w3-dropdown-hover w3-hide-small">
+ <button class="w3-button" title="ToggleNavigation">03 Technology<I class=" fa fa-caret-down"></I></button>
+<div class="w3-dropdown-content w3-sand w3-bar-block w3-card-4">
+
+ <a href="technology-spaceport.html" class="w3-button w3-hide-small w3-bar-item"><img src="icon-todo.svg" alt=""/> Tech Spaceport</a>
+ <a href="technology-vehicle.html" class="w3-button w3-hide-small w3-bar-item"><img src="icon-calender.svg" alt=""/>Tech Vehicle</a>
+ <a href="technology-capsule.html" class="w3-button w3-hide-small w3-bar-item "><img src="icon-reminders.svg" alt="" />Tech capsule</a> 
+ </div>
+</div>
+ 
+ </div>
+</div>
+  <div id="ty" class="w3-bar-block w3-opacity-min w3-padding-top-32 w3-overlay w3-pale-red w3-hide w3-hide-large w3-hide-medium" style="display:none;z-index:3;width:20%;min-width:250px">
+     
+    
+    
+       
+  <a href="index.html" class="w3-bar-item  w3-right w3-button">
+ Home </a>
+<div class="w3-dropdown-hover ">
+<button class="w3-button w3-border-bottom" title="ToggleNavigation">02 Crew<I class=" fa fa-caret-down"></I></button>
+<div class="w3-dropdown-content w3-sand w3-bar-block w3-card-4">
+
+<a href="crew-commander.html" class="w3-button w3-bar-item"><img src="icon-todo.svg" alt=""/> Crew Commander</a> <a href="crew-engineer.html" class="w3-button  w3-bar-item"><img src="icon-calender.svg" alt=""/>Crew engineer</a>
+<a href="crew-pilot.html" class="w3-button w3-bar-item "><img src="icon-reminders.svg" alt="" />Crew pilot</a>
+<a href="crew-specialist.html" class=" w3-button w3-bar-item"><img src="icon-planning.svg" alt=""/>Crew specialist</a>
+ </div>
+ </div>
+<div class="w3-dropdown-hover ">
+ <button class="w3-button" title="ToggleNavigation">01 Destination<I class=" fa fa-caret-down"></I></button>
+ <div class="w3-dropdown-content w3-sand w3-bar-block w3-card-4">
+<a href="destination-moon.html" class="w3-button  w3-bar-item"><img src="icon-todo.svg" alt=""/>Moon</a>
+ <a href="destination-titan.html" class="w3-button w3-bar-item"><img src="icon-calender.svg" alt=""/>Titan</a>
+<a href="destination-europa.html" class="w3-button w3-bar-item "><img src="icon-reminders.svg" alt="" />Europa</a>
+<a href="destination-mars.html" class=" w3-button w3-bar-item"><img src="icon-planning.svg" alt=""/>Mars</a>
+ </div>
+</div>
+ <div class="w3-dropdown-hover ">
+ <button class="w3-button" title="ToggleNavigation">03 Technology<I class=" fa fa-caret-down"></I></button>
+ <div class="w3-dropdown-content w3-sand w3-bar-block w3-card-4">
+
+ <a href="technology-spaceport.html" class="w3-button  w3-bar-item"><img src="icon-todo.svg" alt=""/> Tech Spaceport</a>
+ <a href="technology-vehicle.html" class="w3-button  w3-bar-item"><img src="icon-calender.svg" alt=""/>Tech Vehicle</a>
+<a href="technology-capsule.html" class="w3-button w3-bar-item "><img src="icon-reminders.svg" alt="" />Tech capsule</a>
+</div>
+</div>
+   
+     </div>
+     <div class="w3-row">
+       <div class="w3-half w3-right">
+           <h1 class="w3-padding-top-32 w3-hide-large w3-hide-medium">02 Meet your crew </h1>
+         <img class="w3-padding-top-32" src="assets/crew/image-anousheh-ansari.webp" alt="Anousheh Ansari" width="100%" />
+       </div>
+       <div class="w3-half">
+         <h1 class="w3-padding-top-32 w3-hide-small">02 Meet your crew </h1>
+
+ <h3 class="w3-padding-large w3-xlarge"> Flight Engineer <br>
+  Anousheh Ansari
+  </h3>
+
+ <P class="w3-padding-top-32 w3-wide w3-padding-large"> Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. 
+  Ansari was the fourth self-funded space tourist, the first self-funded woman to 
+  fly to the ISS, and the first Iranian in space. </p>
+       </div>
+        
+     </div>
+
+  </div>
+</div>
+</div>
+<script>
+function myFun() {
+  var t = document.getElementById("ty" );
+  if (t.className.indexOf("w3-show") == -1) {
+    t.className += " w3-show";
+  } else { 
+    t.className = t.className.replace(" w3-show", "");
+  }
+}
+</script>
+</body>
+</html>
+
